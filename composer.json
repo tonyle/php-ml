@@ -1,14 +1,14 @@
 {
-    "name": "php-ai/php-ml",
+    "name": "tonyle/php-ml",
     "type": "library",
     "description": "PHP-ML - Machine Learning library for PHP",
     "license": "MIT",
     "keywords": ["machine learning","pattern recognition","neural network","computational learning theory","artificial intelligence"],
-    "homepage": "https://github.com/php-ai/php-ml",
+    "homepage": "https://github.com/tonyle/php-ml",
     "authors": [
         {
-            "name": "Arkadiusz Kondas",
-            "email": "arkadiusz.kondas@gmail.com"
+            "name": "Tony Le",
+            "email": "tonyle.microsoft@gmail.com"
         }
     ],
     "autoload": {

@@ -24,7 +24,7 @@ $labels = ['a', 'a', 'a', 'b', 'b', 'b'];
 $classifier = new KNearestNeighbors();
 $classifier->train($samples, $labels);
 
-$classifier->predict([3, 2]); 
+$classifier->predict([3, 2]);
 // return 'b'
 ```
 
@@ -89,18 +89,4 @@ Example scripts are available in a separate repository [php-ai/php-ml-examples](
     * [Matrix](http://php-ml.readthedocs.io/en/latest/math/matrix/)
     * [Set](http://php-ml.readthedocs.io/en/latest/math/set/)
     * [Statistic](http://php-ml.readthedocs.io/en/latest/math/statistic/)
-    
-## Contribute
 
-- [Issue Tracker: github.com/php-ai/php-ml](https://github.com/php-ai/php-ml/issues)
-- [Source Code:  github.com/php-ai/php-ml](https://github.com/php-ai/php-ml)
-
-You can find more about contributing in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-PHP-ML is released under the MIT Licence. See the bundled LICENSE file for details.
-
-## Author
-
-Arkadiusz Kondas (@ArkadiuszKondas)
